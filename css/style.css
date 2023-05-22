@@ -136,19 +136,19 @@ TO TABLET
 
 @media screen and (max-width: 768px) {
     .lessons .container{
-        max-width: 768px;
+        width: 768px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .steps .container{
-        max-width: 768px;
+        width: 768px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .why-us .container{
-        max-width: 768px;
+        width: 768px;
     }
 }
 
@@ -158,3 +158,61 @@ TO MOBILE
 
 ---*/
 
+@media screen and (max-width: 480px) {
+
+    .lessons .container{
+        width: 480px;
+    }
+
+    .lessons .col {
+        width: 100%;
+    }
+
+    .lessons .col img {
+        margin-bottom: 3rem;
+        margin-top: 3rem;
+    }
+
+    .row{
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .steps .container{
+        width: 480px;
+    }
+
+    .steps .col {
+        width: 100%;
+    }
+
+    .steps .col img {
+        margin-bottom: 3rem;
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .why-us{
+        background-color: #222222;
+        margin: -3rem;
+        padding: 3rem 0;
+    }
+
+    .why-us .container{
+        width: 480px;
+    }
+
+    .why-us .col {
+        width: 100%;
+    }
+
+    .why-us .col img {
+        margin-bottom: 3rem;
+        margin-top: 3rem;
+    }
+}
