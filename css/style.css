@@ -134,7 +134,7 @@ TO TABLET
 
 ---*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1160px) {
     .container{
         width: 100%;
     }
@@ -174,8 +174,8 @@ BONUS
 
 ---*/
 
-@media screen and (max-width: 1160px) {
+/* @media screen and (max-width: 1160px) {
     body{
         overflow-x: hidden;
     }
-}
+} */
